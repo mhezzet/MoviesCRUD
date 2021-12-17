@@ -1,0 +1,26 @@
+{
+  "name": "moviescrud",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.12.1",
+    "@reduxjs/toolkit": "^1.7.0",
+    "react": "17.0.2",
+    "react-native": "0.66.4",
+    "react-native-navigation": "^7.24.2",
+    "react-redux": "^7.2.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/runtime": "^7.12.5",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "eslint": "7.14.0",
+    "metro-react-native-babel-preset": "^0.66.2"
+  }
+}
